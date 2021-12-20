@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 10px;
+    color: white;
+    font-size: 32px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+
+/*Header End*/
+
+
+/*Top Wrapper*/
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1563458973984-af715c033c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+/*Top Wrapper End*/
+
+
+/*Work Wrapper*/
+
+.work-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: violet;
+}
+
+.heading h2 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.work-icon {
+    position: relative;
+}
+
+.work-icon img {
+    width: 250px;
+    opacity: 0.7;
+}
+
+.work-info {
+    position: absolute;
+    padding: 2rem;
+    color: white;
+    transition: all 0.1s;
+}
+
+.work-info h2 {
+    font-size: 24px;
+}
+
+.work-info p {
+    font-size: 18px;
+}
+
+.work-info a {
+    color: white;
+    font-style: none;
+}
+
+
+/*Work Wrapper End*/
+
+
+/*Footer*/
+
+footer {
+    background-color: #001219;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-list {
+    float: right;
+    display: flex;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list a {
+    color: white;
+}
